@@ -1,0 +1,88 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code (optional - uncomment if you want to ignore)
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+pubspec.lock
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android related
+/android/app/debug
+/android/app/profile
+/android/app/release
+/android/.gradle/
+/android/local.properties
+/android/key.properties
+/android/*.jks
+/android/*.keystore
+/android/app/build/
+/android/build/
+
+# iOS related (not needed for Android-only project)
+/ios/
+/macos/
+
+# Other platforms (not needed for Android-only project)
+/linux/
+/windows/
+/web/
+
+# Swift related (iOS)
+.swiftpm/
+
+# Generated files
+*.g.dart
+*.freezed.dart
+*.mocks.dart
+
+# Test related
+/coverage/
+*.lcov
+
+# Environment files (if you have any)
+.env
+.env.local
+.env.*.local
+
+# Secrets (never commit)
+**/secrets/
+*.pem
+*.p12
+
+# APK/AAB output (already in build/, but explicit)
+*.apk
+*.aab
+
+# Exceptions - DO track these
+!assets/alarm.mp3
